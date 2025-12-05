@@ -4,6 +4,7 @@
     text-transform: capitalize;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration:none;
 }
 
 body {
@@ -853,3 +854,4 @@ form h2{
     align-items: center;
     justify-content: center;
 }
+
