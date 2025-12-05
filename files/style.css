@@ -845,3 +845,11 @@ form h2{
     scale: 1.050;
     /* box-shadow: 0 0 100px 10px grey; */
 }
+
+.btn-cv{
+    width: 300px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
