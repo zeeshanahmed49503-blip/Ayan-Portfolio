@@ -33,7 +33,10 @@
                     <img src="New Project (2).png" alt="">
                 </div>
                 <p>Passionate about creating and designing websites with the best engaging interfaces.</p>
-                <button class="btn">download cv</button>
+                <a href="cv.pdf" target="_blank" class="btn-cv">
+                    <button class="btn">download cv</button>
+
+                </a>
 
             </div>
             <div class="skills-box">
@@ -46,7 +49,10 @@
                 <div class="skills-images">
                     <img src="images/html css js.png" alt=""><br>
                 </div>
-                <button class="btn">view more</button>
+                <a href="#projects-section" class="btn-cv">
+                    <button class="btn">view projects</button>
+
+                </a>
             </div>
         </div>
         <div class="center-container">
@@ -80,7 +86,7 @@
             <ul>
                 <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
                 <li><a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
-                <li><a href="#projects-sec"><i class="fa-solid fa-folder"></i></a></li>
+                <li><a href="#projects-section"><i class="fa-solid fa-folder"></i></a></li>
                 <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
         </nav>
@@ -88,30 +94,30 @@
 
 
 
-<section class="projects-sec" id="projects-sec">
-            <h2 class="ser-txt">latest projects</h2>
+    <section class="projects-sec">
+        <h2 class="ser-txt" id="projects-section">latest projects</h2>
 
-    <div class="project-mid">
-       <div class="project-1">
-        <img src="project image/Screenshot 2025-12-04 142505.png" alt="">
-       </div>
-       <div class="project-1 p-2">
-        <img src="project image/Screenshot 2025-12-04 153957.png" alt="">
-       </div>
-       <div class="project-1 p-3">
-        <img src="project image/Screenshot 2025-12-04 154157.png" alt="">
-       </div>
-    </div>
-</section>
+        <div class="project-mid">
+            <div class="project-1">
+                <img src="project image/Screenshot 2025-12-04 142505.png" alt="">
+            </div>
+            <div class="project-1 p-2">
+                <img src="project image/Screenshot 2025-12-04 153957.png" alt="">
+            </div>
+            <div class="project-1 p-3">
+                <img src="project image/Screenshot 2025-12-04 154157.png" alt="">
+            </div>
+        </div>
+    </section>
 
 
 
-    <section class="services-section" >
+    <section class="services-section">
         <div class="glow">
-            
+
         </div>
         <div class="glow2">
-            
+
         </div>
         <h2 class="ser-txt" id="services">Services i Offer</h2>
         <div class="services-mid">
@@ -130,7 +136,8 @@
             <div class="box1">
                 <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
                 <h3>web design</h3>
-                <p>Design is the first thing users notice, so I make sure every design looks clean, modern, and visually attractive.</p>
+                <p>Design is the first thing users notice, so I make sure every design looks clean, modern, and visually
+                    attractive.</p>
                 <ul>
                     <li>creative UI/UX</li>
                     <li>perfect spacing & colors</li>
@@ -142,7 +149,8 @@
             <div class="box1">
                 <div class="icon"><i class="fa-solid fa-rocket"></i></div>
                 <h3>SEO Optimization</h3>
-                <p>Having a website isn’t enough people should be able to find it. I help improve visibility with SEO, better content structure, and ranking optimization.</p>
+                <p>Having a website isn’t enough people should be able to find it. I help improve visibility with SEO,
+                    better content structure, and ranking optimization.</p>
                 <ul>
                     <li>keyword optimization</li>
                     <li>Google-friendly content</li>
@@ -164,21 +172,22 @@
 
 
     <section class="contact-section" id="contact">
-            <div class="contact-mid">
-                <div class="imgage-sec">
-                    <img src="2-removebg-preview.png" alt="">
-                </div>
-                <div class="contact-form">
-                    
-                    <form>
-                        <h2>contact me</h2>
-                        <input type="text" placeholder="enter your name" required>
-                        <input type="email" placeholder="enter your email" required>
-                        <textarea name="message" placeholder="enter your message"required ></textarea>
-                        <button class="btn submit">submit</button>
-                    </form>
-                </div>
+        <div class="contact-mid">
+            <div class="imgage-sec">
+                <img src="2-removebg-preview.png" alt="">
             </div>
+            <div class="contact-form">
+
+                <form action="https://api.web3forms.com/submit" method="POST">>
+                    <h2>contact me</h2>
+                    <input type="hidden" name="access_key" value="54b0f61d-86a0-4169-ae35-1ed080ae8213">
+                    <input type="text" name="name" placeholder="enter your name" autocomplete="off" required>
+                    <input type="email" name="email" placeholder="enter your email" autocomplete="off" required>
+                    <textarea name="message" placeholder="enter your message" autocomplete="off" required></textarea>
+                    <button class="btn submit">submit</button>
+                </form>
+            </div>
+        </div>
     </section>
 
 
